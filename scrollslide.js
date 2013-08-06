@@ -14,7 +14,7 @@ var slide = {
     slide.nextBt = $('<a id="prev">')
     .on('click', slide.next)
     .on('dblclick', slide.last);
-    slide.aboutBt = $('<a id="about" href="https://github.com/rafaelcastrocouto">');
+    slide.aboutBt = $('<a id="about" href="https://github.com/rafaelcastrocouto/scrollslide">');
     slide.controlDiv = $('<div id="control">')
     .append(slide.prevBt, 
             slide.currentBt, 
