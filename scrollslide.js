@@ -110,4 +110,3 @@ var slide = {
   }
 };
 $(window).on('load', slide.load);
-
