@@ -79,7 +79,7 @@ var slide = {
     slide.currentBt.html(i + 1);    
   },
   style: function(){
-    var u = 'http://fortawesome.github.io/Font-Awesome/assets/font-awesome/font/';
+    var u = 'http://fortawesome.github.io/Font-Awesome/assets/font-awesome/fonts/';
     var v = '4.0.3';
     var css = [
 '@font-face {', 
