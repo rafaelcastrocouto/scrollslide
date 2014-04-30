@@ -80,13 +80,14 @@ var slide = {
   },
   style: function(){
     var u = 'http://fortawesome.github.io/Font-Awesome/assets/font-awesome/font/';
+    var v = '4.0.3';
     var css = [
 '@font-face {', 
 '  font-family: "FontAwesome"; font-weight: normal; font-style: normal; ',
-'  src: url("'+u+'fontawesome-webfont.eot?v=3.2.1");',
-'  src: url("'+u+'fontawesome-webfont.woff?v=3.2.1") format("woff"), ',
-'       url("'+u+'fontawesome-webfont.ttf?v=3.2.1") format("truetype"), ',
-      '       url("'+u+'fontawesome-webfont.svg#fontawesomeregular?v=3.2.1") format("svg"); }',
+'  src: url("'+u+'fontawesome-webfont.eot?v='+v+'");',
+'  src: url("'+u+'fontawesome-webfont.woff?v='+v+'") format("woff"), ',
+'       url("'+u+'fontawesome-webfont.ttf?v='+v+'") format("truetype"), ',
+      '       url("'+u+'fontawesome-webfont.svg#fontawesomeregular?v='+v+'") format("svg"); }',
 '* { color: black;  box-sizing: border-box; }',
 'html, body, section { width: 100%;  height: 100%;  margin: 0; }', 
 'section {  display: table;  background: #99a;  padding: 1em; }',
