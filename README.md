@@ -3,7 +3,7 @@
 
 Simple Presentation Library
 
-[Demo](http://rafaelcastrocouto.github.com/scrollslide "Demo")
+[Demo](http://rafaelcastrocouto.github.io/scrollslide/ "Demo")
 
 Add the following code to the head of your html:
 
